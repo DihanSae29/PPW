@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Sistem Informasi Data Mahasiswa - Praktikum 1 - Kelas E</h1>
+            <p>Saya pengen buat sistem dengan ketentuan yang mengikuti 
+                syarat pada praktikum judul 1 Pemrograman Web</p>
+                <img src="https://i.pinimg.com/736x/ca/fe/15/cafe15cffae468dd3aca3bf3de04710c.jpg" 
+                alt="logo amba" width="150" height="150">
+    </header>
+    <hr>
+    <nav>
+        <ul>
+            <li><a href="#informasi">Informasi akademik</a></li>
+            <li><a href="#daftar-mahasigma">kelas praktikum</a></li>
+            <li><a href="#form-tambah">Tambah goreng</a></li>
+        </ul>
+    </nav>
+    <hr>
+    <main>
+        <section id="informasi">
+            <h2>informasi sistem</h2>
+            <p>blaballababababablalb abnahdiad andiahwfaknosd fiajnajfuabfuabfuajsfjabf]
+                afafugaufbaujwfawifbauiwfb afbaifuwaiufbaniwufaw anfuahfwuaiuwfgaiufbuifa
+            </p>
+
+            <article>
+                <h3>detail artikel</h3>
+                <p>nafhiaufhw ajdnawiduhawi afnauifwhfiuah</p>
+            </article>
+        </section>
+        <hr>
+
+        <section id="daftar-mahasigma">
+            <h2>daftar mahasigma aktif</h2>
+            <p>andanwfujiawnf a fawbnfaiwufawi afnawiuofnaiowfjawof afjawoifjwofianoiafo</p>
+            <table border="1" cellpadding="8" cellspacing="0">
+                <thead>
+                    <tr>
+                        <th>No</th>
+                        <th>Foto</th>
+                        <th>NPM</th>
+                        <th>Nama Lengkap</th>
+                        <th>Program Studi</th>
+                        <th>Angkatan</th>
+                        <th>Email</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>
+                            <img src="https://i.pinimg.com/originals/db/23/8d/db238d90129dd8233696a607f7f3a030.jpg" alt="amba" width="50" height="50">
+                        </td>
+                        <td>2415061045</td>
+                        <td>Dihan Ahmad Al-Hasyir Sae</td>
+                        <td>Teknik Informatika</td>
+                        <td>24</td>
+                        <td>dihanhahay06@gmail.com</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>-</td>
+                        <td>2415061111</td>
+                        <td>Garhan Fooning</td>
+                        <td>Teknik Elektro</td>
+                        <td>24</td>
+                        <td>afhaifiawu@gmail.com</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>-</td>
+                        <td>2315061120</td>
+                        <td>Mahasiswa Tiga</td>
+                        <td>Teknik Elektro</td>
+                        <td>23</td>
+                        <td>tiga@bijix.com</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <hr>
+
+        <section id="form-tambah">
+            <h2>tambah mahasigma baru</h2>
+            <p>abauwgfbaf afbawifaf afnawiufhawiuf anfawuifhaiufha ajfnawiu</p>
+            <form action="#" method="post">
+                <fieldset>
+                    <legend>Data Mahasigma</legend>
+                    <p>
+                        <label for="npm">Nomor Pokok Mahasigma(NPM):</label><br>
+                        <input type="text" id="npm" name="npm" placeholder="Contoh: 2415061045" required pattern="[0-9]{8,12}" title="NPM harus berupa angka 8-12 digit"><br>
+                        <small>Pastikan NPM Anda valid dan berupa angka.</small>
+                    </p>
+                    <p>
+                        <label for="nama">Nama Lengkap:</label><br>
+                        <input type="text" id="nama" name="nama" placeholder="Contoh: Dihan gimang" required minlength="3" maxlength="100"><br>
+                        <small>Masukkan nama sesuai KTP atau KTM.</small>
+                    </p>
+                    <p>
+                        <label for="program_studi">Program Studi:</label><br>
+                        <select id="program_studi" name="program_studi" required>
+                            <option value="">Pilih Program Studi</option>
+                            <option value="Teknik Informatika">Teknik Informatika</option>
+                            <option value="Teknik Elektro">Teknik Elektro</option>
+                        </select><br>
+                        <small>ahiuwffaffsfefesffsfhiauwf anawifawuifgawuf</small>
+                    </p>
+                    <p>
+                        <label for="angkatan">Tahun Angkatan:</label><br>
+                        <input type="number" id="angkatan" name="angkatan" placeholder="Contoh: 2024" required min="2018" max="2026"><br>
+                        <small>Pilih tahun masuk perkuliahan.</small>
+                    </p>
+                    <p>
+                        <label for="email">Alamat Email:</label><br>
+                        <input type="email" id="email" name="email" placeholder="Contoh: email@example.com" required><br>
+                        <small>Gunakan email aktif yang bisa dihubungi.</small>
+                    </p>
+                    <p>
+                        <button type="submit">Simpan Data Mahasiswa</button>
+                        <button type="reset">Reset Formulir</button>
+                    </p>
+                </fieldset>
+            </form>
+
+
+        </section>
+
+    </main>
+    
+</body>
+</html>
