@@ -276,7 +276,7 @@ if (inputSearch) {
         } else {
             const hasilPencarian = dataMahasiswa.filter(mhs =>
                 mhs.nama.toLowerCase().includes(keyword) ||
-                mhs.npm.includes(keyword)
+                mhs.npm.includes(keyword) ||
                 mhs.prodi.toLowerCase().includes(keyword)
             );
             renderTable(hasilPencarian);
